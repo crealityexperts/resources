@@ -1,7 +1,7 @@
 # This script converts the default PrusaSlicer thumbnail header to the format expected by the Ender 3 V2 Neo
 # by CrealityExperts - no copyrights, share freely
 
-import re, sys, os
+import re, sys
 
 #the first argument will always be the temporary gcode file prusaslicer generates.  The script applies the updates directly to this temporary file
 gcode_filename = sys.argv[1]
