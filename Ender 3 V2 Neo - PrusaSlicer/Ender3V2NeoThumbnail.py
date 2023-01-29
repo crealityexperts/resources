@@ -3,9 +3,6 @@
 
 import re, sys, os
 
-root = tk.Tk()
-root.withdraw()
-
 #the first argument will always be the temporary gcode file prusaslicer generates.  The script applies the updates directly to this temporary file
 gcode_filename = sys.argv[1]
 
