@@ -1,3 +1,6 @@
+# This script converts the default PrusaSlicer thumbnail header to the format expected by the Ender 3 V2 Neo
+# by CrealityExperts - no copyrights, share freely
+
 import re, sys, os
 import tkinter as tk
 
@@ -26,7 +29,7 @@ if start_index is not None:
         lines[0] = lines[0].replace(str(number), str(new_number)).replace('x','*').replace('\n','') + " 3 197 500\n"
 
 
-# The Ender 3 Neo expects these lines to be present before the actual GCode starts
+# The Ender 3 V2 Neo expects these lines to be present before the actual GCode starts
     curaText = """;FLAVOR:Marlin
 ;TIME:0
 ;Filament used: 0m
