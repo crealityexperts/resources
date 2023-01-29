@@ -2,7 +2,6 @@
 # by CrealityExperts - no copyrights, share freely
 
 import re, sys, os
-import tkinter as tk
 
 root = tk.Tk()
 root.withdraw()
